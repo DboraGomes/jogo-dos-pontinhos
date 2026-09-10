@@ -88,6 +88,20 @@ h1 {
 
 /* Linha depois de escolhida */
 
-.ligacao.marcada {
+.jogador1 {
+    background-color: #a52a3a;
+}
+
+.jogador2 {
     background-color: #d4af37;
+}
+
+#pontos-j1 {
+    color: #a52a3a;
+    font-weight: bold;
+}
+
+#pontos-j2 {
+    color: #d4af37;
+    font-weight: bold;
 }
