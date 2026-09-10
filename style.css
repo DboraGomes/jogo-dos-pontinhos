@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0d1b2a;
+    color: #f5ebd7;
+
+    font-family: Arial, sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    color: #d4af37;
+    margin-bottom: 30px;
+}
+
+.placar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    margin-bottom: 50px;
+}
+
+#tabuleiro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linha-horizontal,
+.linha-vertical {
+    display: flex;
+    align-items: center;
+}
+
+.ponto {
+    width: 12px;
+    height: 12px;
+
+    background-color: #d4af37;
+    border-radius: 50%;
+
+    position: relative;
+    z-index: 2;
+}
+
+/* Linhas que ficam entre os pontos */
+
+.horizontal {
+    width: 50px;
+    height: 8px;
+}
+
+.vertical {
+    width: 8px;
+    height: 50px;
+}
+
+/* Espaço entre as linhas verticais */
+
+.espaco {
+    width: 54px;
+    height: 50px;
+}
+
+/* Área clicável */
+
+.ligacao {
+    background-color: #ffffff22;
+    cursor: pointer;
+}
+
+.ligacao:hover {
+    background-color: #ffffff55;
+}
+
+/* Linha depois de escolhida */
+
+.ligacao.marcada {
+    background-color: #d4af37;
+}
