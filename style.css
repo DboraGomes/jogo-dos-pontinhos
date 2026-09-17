@@ -550,3 +550,15 @@ body {
         transparent 13px
     );
 }
+
+/* =========================
+   QUADRADOS CONQUISTADOS
+========================= */
+
+.quadrado-j1 {
+    background-color: rgba(165, 42, 58, 0.35);
+}
+
+.quadrado-j2 {
+    background-color: rgba(212, 175, 55, 0.35);
+}
