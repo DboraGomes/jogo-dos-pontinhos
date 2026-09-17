@@ -562,3 +562,78 @@ body {
 .quadrado-j2 {
     background-color: rgba(212, 175, 55, 0.35);
 }
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-height: 850px) {
+
+    .moldura-inicial,
+    .moldura-como-jogar,
+    .moldura-jogadores,
+    .moldura-jogo {
+        height: 90vh;
+    }
+
+    /* Logos */
+
+    .logo {
+        width: 650px;
+        top: 5px;
+    }
+
+    .logo-como-jogar {
+        width: 400px;
+    }
+
+    .logo-jogadores {
+        width: 500px;
+        margin: 5px auto;
+    }
+
+    .logo-jogo {
+        width: 430px;
+        margin: 0 auto -20px;
+    }
+
+    /* Decorações */
+
+    .redoma,
+    .espelho {
+        width: 145px;
+    }
+
+    /* Tela inicial */
+
+    .botoes-iniciais {
+        top: 65%;
+    }
+
+    /* Jogadores */
+
+    .campos-jogadores {
+        margin-top: 10px;
+    }
+
+    /* Placar */
+
+    .moldura-jogo .placar {
+        margin-bottom: 20px;
+    }
+
+    /* Tabuleiro */
+
+    .horizontal {
+        width: 65px;
+    }
+
+    .vertical {
+        height: 65px;
+    }
+
+    .espaco {
+        width: 65px;
+        height: 65px;
+    }
+}
